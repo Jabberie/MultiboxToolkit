@@ -1,6 +1,6 @@
 ## Interface: 90001
-## Title: MultiboxToolkit
+## Title: Toolkit
 ## Author: Jabberie
 ## Version: 1
 
-MultiboxToolkit.lua
+Toolkit.lua
