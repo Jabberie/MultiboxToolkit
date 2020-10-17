@@ -1,16 +1,16 @@
-# MultiboxToolkit
+# MultiboxToolkit  
 Collection of useful functions and commands for playing World of Warcraft
 
-/leaveparty
+/leaveparty  
 Quickly leave an instance group if within a dungeon and party/raid if not. 
 
-/disbandgroup
+/disbandgroup  
 Quickly uninvite everyone in the raid group.
 
-/rl
+/rl  
 Reload UI
 
-/fs
+/fs  
 Framestack
 
 
