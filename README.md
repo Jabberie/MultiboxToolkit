@@ -1,4 +1,4 @@
-# MultiboxToolkit  
+# Multibox Toolkit  
 Collection of useful functions and commands for playing World of Warcraft
 
 /leaveparty  
