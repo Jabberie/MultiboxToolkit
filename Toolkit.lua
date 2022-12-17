@@ -1,18 +1,17 @@
 --=====================================================================
 SLASH_LEAVEPARTY1 = "/leaveparty"
 SlashCmdList.LEAVEPARTY = function()
-		if InCombatLockdown() then return end
+	if InCombatLockdown() then return end
 
-       	if UnitInRaid('player') or UnitInParty('player') then
-           if IsInInstance() then 
-           	C_PartyInfo.LeaveParty(2)
-           else
-           	C_PartyInfo.LeaveParty(1)
-      	end
+   	if UnitInRaid('player') or UnitInParty('player') then
+       	if IsInInstance() then 
+       		C_PartyInfo.LeaveParty(2)
+       	else
+       		C_PartyInfo.LeaveParty(1)
+  		end
     end	
 end
 --=====================================================================
-
 
 --=====================================================================
 SLASH_DISBANDGROUP1 = "/disbandgroup"
@@ -42,12 +41,10 @@ SlashCmdList.DISBANDGROUP = function()
 end
 --=====================================================================
 
-
 --=====================================================================
 SLASH_RELOADUI1 = "/rl"
 SlashCmdList.RELOADUI = ReloadUI;
 --=====================================================================
-
 
 --=====================================================================
 SLASH_FRAMESTK1 = "/fs"; -- for quicker access to frame stack

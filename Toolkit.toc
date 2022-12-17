@@ -1,6 +1,6 @@
-## Interface: 90001
+## Interface: 100001
 ## Title: Toolkit
 ## Author: Jabberie
-## Version: Alpha-2
+## Version: Alpha-3
 
 Toolkit.lua
